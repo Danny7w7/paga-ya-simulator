@@ -1,0 +1,12 @@
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+backend/db.sqlite3
+frontend/node_modules/
+frontend/dist/
+
+# Migraciones generadas localmente: se ignoran,
+# pero SI se suben los __init__.py
+**/migrations/*.py
+!**/migrations/__init__.py
